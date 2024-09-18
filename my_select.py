@@ -1,6 +1,6 @@
 from sqlalchemy import create_engine, func
 from sqlalchemy.orm import sessionmaker
-from models import Base, Student, Group, Subject, Teacher, Grade
+from seed import Base, Student, Group, Subject, Teacher, Grade
 
 # Налаштування бази даних
 DATABASE_URL = "postgresql://user:password@localhost/dbname"
